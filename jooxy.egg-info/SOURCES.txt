@@ -1,0 +1,14 @@
+README.rst
+setup.py
+jooxy/__init__.py
+jooxy/auth.py
+jooxy/client.py
+jooxy/config.py
+jooxy/sessions.py
+jooxy/user.py
+jooxy/utils.py
+jooxy.egg-info/PKG-INFO
+jooxy.egg-info/SOURCES.txt
+jooxy.egg-info/dependency_links.txt
+jooxy.egg-info/requires.txt
+jooxy.egg-info/top_level.txt

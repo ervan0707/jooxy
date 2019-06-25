@@ -1,0 +1,60 @@
+Metadata-Version: 1.1
+Name: jooxy
+Version: 1.0.1
+Summary:  Unofficial Joox Web API
+Home-page: https://github.com/ervan0707/jooxy
+Author: Ervan R.F
+Author-email: ervanroot@gmail.com
+License: BSD 3 Clause License
+Description: .. contents::
+        
+        Unofficial Joox Web API
+        
+        **Homepage**: https://github.com/ervan0707/jooxy
+        
+        Requirements
+        ============
+        The linepy module only requires Python 3
+        
+        Installation
+        ============
+        Installation is simple. It can be installed from pip using the following
+        command::
+        
+            $ pip install jooxy
+        
+        Or from the terminal::
+        
+            $ python setup.py install
+        
+        Usage
+        ============
+        ::
+        
+            >>> from jooxy import *
+            >>> joox = Jooxy('EMAIL', 'PASSWORD')
+            >>> #or
+            >>> joox = Jooxy('EMAIL', 'PASSWORD', saveData=False)
+            >>> #or
+            >>> joox = Jooxy()
+        
+        _.
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
