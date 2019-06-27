@@ -76,3 +76,12 @@ class User(object):
         if r.status_code != 200:
             raise("Failed to fetch data.")
         return json.loads(r.text)
+
+    @loggedIn
+    def getTrackInfo(self, songId):
+        params = dict(songid=songId)
+        r = self._get(self.JOOX_API_DOMAIN + self.JOOX_GET_SONGINFO_PATH,
+                        params=params, withAuth=True)
+        if r.status_code != 200:
+            raise("Failed to fetch data.")
+        return json.loads(r.text)

@@ -132,11 +132,3 @@ class Client(object):
         if r.status_code != 200:
             raise("Failed to fetch data.")
         return json.loads(r.text)
-
-    def getTrackInfo(self, songId):
-        params = dict(songid=songId)
-        r = self._get(self.JOOX_API_DOMAIN + self.JOOX_GET_SONGINFO_PATH,
-                        params=params)
-        if r.status_code != 200:
-            raise("Failed to fetch data.")
-        return json.loads(r.text)
