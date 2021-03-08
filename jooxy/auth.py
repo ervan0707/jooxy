@@ -92,7 +92,7 @@ class Jooxy(Config, Client, Sessions, User):
         r = requests.get(self.JOOX_API_DOMAIN + self.JOOX_AUTH_PATH, params=params)
         if r.status_code != 200:
             raise JooxAuthError(r.reason)
-        userInfo = json.loads(parseJSONP(r.text))
+        userInfo = r.json()
         if "nickname" in userInfo:
             self._saveUserInfo(userInfo)
             return userInfo
