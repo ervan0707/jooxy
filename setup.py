@@ -21,15 +21,12 @@ except ImportError:
     use_setuptools()
     from setuptools import setup
 
-with open("jooxy/__init__.py") as f:
-    version = re.search(r"__version__\s*=\s*\'(.+?)\'", f.read()).group(1)
-assert version
 
 with open("README.rst") as f:
     setup(
         name="jooxy",
         packages=["jooxy"],
-        version=version,
+        version="1.0.3",
         license="BSD 3 Clause License",
         author="Ervan R.F",
         author_email="ervanroot@gmail.com",
@@ -56,5 +53,4 @@ with open("README.rst") as f:
             "Topic :: Software Development :: Libraries :: Python Modules",
             "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
         ],
-        install_requires=["requests"],
     )

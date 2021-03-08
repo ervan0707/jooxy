@@ -5,3 +5,4 @@ data
 build
 dist
 .mypy_cache
+jooxy.egg-info
