@@ -1,6 +1,7 @@
-/env
-/__pycache__
-/.vscode
-/data
-/build
-/dist
+env
+__pycache__
+.vscode
+data
+build
+dist
+.mypy_cache
