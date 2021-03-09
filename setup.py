@@ -26,7 +26,7 @@ with open("README.rst") as f:
     setup(
         name="jooxy",
         packages=["jooxy"],
-        version="1.0.3",
+        version="1.0.4",
         license="BSD 3 Clause License",
         author="Ervan R.F",
         author_email="ervanroot@gmail.com",

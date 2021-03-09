@@ -1,5 +1,5 @@
 __copyright__ = "Copyright 2019 by Ervan R.F"
-__version__ = "1.0.3"
+__version__ = "1.0.4"
 __license__ = "BSD-3-Clause"
 __author__ = "Ervan R.F"
 __author_email__ = "ervanroot@gmail.com"
