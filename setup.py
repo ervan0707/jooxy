@@ -53,4 +53,5 @@ with open("README.rst") as f:
             "Topic :: Software Development :: Libraries :: Python Modules",
             "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
         ],
+        install_requires=["requests"],
     )
